@@ -14,9 +14,23 @@ Because the census data and the airbnb data are at different levels of granulari
 When looking into the correlations between the crime data and price it was clear that all the distributions for crime are heavily skewed towards 0. To overcome this I log tranformed the skewed data to get something closer to a normal distribution. Because some of the crime numbers were decimals, this log transformation turned them negative and when I tried to use Seaborne pairplot it wasn't happy. I then went and added 1 to each value and then applied the log transformation. This really helped display the linear correlations in the pairplot and we saw the pearsons coefficient change (in a more meanigful direction). 
 
 ## Instructions to Run:
-Disclaimer: You will need to download data from the below source. This file was too large to upload to GitHub!
+Disclaimer: You will need to download data from the below source to fully run the jupyter notebook. This file was too large to upload to GitHub!
 
 https://ladata.myneighborhooddata.org/#!/view-data
 Go to this link and download the Citizen Variables Connect data. It should download a csv with the following title -  Citizen_Connect_Variables__LA_.csv
 
+### Files
+LA Exploration.ipynb - Jupyter notebook where all the above work was completed. Read data in, manipulated data, and vizualized data.
+listings_la.csv - Consolidate Airbnb data 
+neighbourhoods.geojson - LA Neighborhood geojson coordinates to visualize boundaries of the neighborhoods
+map3.html - Geo-Vizualization of Los Angeles overlaid by Leaflet Cloropleth graphs
+
+### Libraries
+Pandas - data manipulation
+Numpy - number functions
+GeoPandas - geographical visualizations
+wordcloud - generate wordclouds
+nltk - text processing
+sodapy - API connection to import data
+seaborne - data visualization
 

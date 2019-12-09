@@ -27,11 +27,11 @@ neighbourhoods.geojson - LA Neighborhood geojson coordinates to visualize bounda
 map3.html - Geo-Vizualization of Los Angeles overlaid by Leaflet Cloropleth graphs/
 
 ### Libraries
-Pandas - data manipulation
-Numpy - number functions
-GeoPandas - geographical visualizations
-wordcloud - generate wordclouds
-nltk - text processing
-sodapy - API connection to import data
-seaborne - data visualization
+Pandas - data manipulation\
+Numpy - number functions\
+GeoPandas - geographical visualizations\
+wordcloud - generate wordclouds\
+nltk - text processing\
+sodapy - API connection to import data\
+seaborne - data visualization\
 

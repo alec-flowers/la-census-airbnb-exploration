@@ -20,10 +20,10 @@ https://ladata.myneighborhooddata.org/#!/view-data
 Go to this link and download the Citizen Variables Connect data. It should download a csv with the following title -  Citizen_Connect_Variables__LA_.csv
 
 ### Files
-LA Exploration.ipynb - Jupyter notebook where all the above work was completed. Read data in, manipulated data, and vizualized data.
-listings_la.csv - Consolidate Airbnb data 
-neighbourhoods.geojson - LA Neighborhood geojson coordinates to visualize boundaries of the neighborhoods
-map3.html - Geo-Vizualization of Los Angeles overlaid by Leaflet Cloropleth graphs
+LA Exploration.ipynb - Jupyter notebook where all the above work was completed. Read data in, manipulated data, and vizualized data.\
+listings_la.csv - Consolidate Airbnb data \
+neighbourhoods.geojson - LA Neighborhood geojson coordinates to visualize boundaries of the neighborhoods/
+map3.html - Geo-Vizualization of Los Angeles overlaid by Leaflet Cloropleth graphs/
 
 ### Libraries
 Pandas - data manipulation

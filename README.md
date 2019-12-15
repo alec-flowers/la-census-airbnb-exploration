@@ -1,5 +1,6 @@
 # Census & Airbnb Data Exploration
-Medium Article - https://medium.com/@alec.flowers00/psychology-crime-and-togas-fb58c21af328 source=friends_link&sk=c71db875247f23d866a384ce90e8e263
+Medium Article - 
+https://medium.com/@alec.flowers00/psychology-crime-and-togas-fb58c21af328?source=friends_link&sk=c71db875247f23d866a384ce90e8e263
 
 ## Overview
 The purpose of this analysis was to write a Medium article that was insightful while building my expertise manipulating and analyzing data. I decided to work with Airbnb data and chose Los Angeles as my city of choice. I wanted to also explore correlations between Airbnb price per day data and data from the Los Angeles census. Because I was writing an article I wanted to have be able to include items that were visually striking and played around with wordmaps, scatterplots, and geo-visualizations using leaflet. 

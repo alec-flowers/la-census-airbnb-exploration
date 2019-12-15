@@ -21,7 +21,7 @@ I wanted to look into title word choice by review rating, however when I was dow
 **Data Preperation** - Because the census data and the airbnb data are at different levels of granularity you have to aggregate the census data from the tract level up to the neighborhood level. However, it isn't as simple as summing all the categories toghether. For crime data the statistic we are measuring is rate of crime per 1000 people. Therefore a sum would wildly overstate the crime rates. To overcome this issue I weighted the rates by the population percentage that each tract contributed to the overall neighborhood. When I dropped neighborhoods where we didn't have values I chose this path because 1) We had a large majority of neighborhoods with data 2) Imputing the values wouldn't have added any value to the visual analysis 3) I am not running a ML model where I need to impute or fill nulls.\
 **Modeling** - Wanted to display the results using an visual because the end goal was to write a medium article. Therefore decided to geo-visualizations in order to visually highlight differences between neighborhoods. \
 **Evaluation** - When looking into the correlations between the crime data and price it was clear that all the distributions for crime are heavily skewed towards 0. To overcome this I log tranformed the skewed data to get something closer to a normal distribution. Because some of the crime numbers were decimals, this log transformation turned them negative and when I tried to use Seaborne pairplot it wasn't happy. I then went and added 1 to each value and then applied the log transformation. This really helped display the linear correlations in the pairplot and we saw the pearsons coefficient change (in a more meanigful direction). \
-**Deployment** - Since everthing is in a jupyter notebook and I built functions, you could easily run this analysis on other cities by downloading the data from the same source. It would probably take a bit different pre-processing as I am not sure if all cities have census data in the same format.\
+**Deployment** - Since everthing is in a jupyter notebook and I built functions, you could easily run this analysis on other cities by downloading the data from the same source. It would probably take a bit different pre-processing as I am not sure if all cities have census data in the same format.
 
 ## Instructions to Run:
 Disclaimer: You will need to download data from the below source to fully run the jupyter notebook. This file was too large to upload to GitHub!
@@ -42,5 +42,5 @@ GeoPandas - geographical visualizations\
 wordcloud - generate wordclouds\
 nltk - text processing\
 sodapy - API connection to import data\
-seaborne - data visualization\
+seaborne - data visualization
 
